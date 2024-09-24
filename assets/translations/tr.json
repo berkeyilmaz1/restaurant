@@ -1,0 +1,19 @@
+{
+    "onboarding": {
+        "next": "İleri",
+        "skip": "Atla",
+        "start": "Başla",
+        "onboardingMap": {
+            "title": "Yakındaki restoranlar",
+            "description": "İyi bir restoran bulmak için uzağa gitmenize gerek yok, size en yakın restoranları sağladık"
+        },
+        "onboardingPhone": {
+            "title": "Favori Menüyü Seçin",
+            "description": "Artık evden çıkmadan iyi yemek yiyin, favori yemeğinizi sadece bir tıklama ile seçebilirsiniz"
+        },
+        "onboardingFood": {
+            "title": "Uygun fiyata lezzetli yemek",
+            "description": "Pahalı restoranlarda uygun fiyatlarla yemek yiyebilirsiniz"
+        }
+    }
+}

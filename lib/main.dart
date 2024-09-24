@@ -1,6 +1,10 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:restaurant_app/product/initialize/localization/main_localization.dart';
 import 'package:restaurant_app/product/initialize/main_app/main_app.dart';
 
 void main() async {
-  runApp(const MainApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  await EasyLocalization.ensureInitialized();
+  runApp(MainLocalization(child: const MainApp()));
 }
