@@ -14,4 +14,11 @@ final class ProductTextStyles {
     color: ProductColors.secondaryTextColor,
     fontSize: WidgetSizes.spacingM,
   );
+
+  ///TODO: CHANGE NAME
+  static const TextStyle textStyle = TextStyle(
+    color: ProductColors.primaryColor,
+    fontSize: WidgetSizes.spacingM,
+    fontWeight: FontWeight.bold,
+  );
 }

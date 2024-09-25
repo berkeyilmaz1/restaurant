@@ -12,7 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
 
-  #
+  kartal: ^4.1.0
+
+  #Image
   flutter_svg: ^2.0.10+1
 
   #Models
@@ -24,6 +26,9 @@ dependencies:
 
   #State
   flutter_bloc: ^8.1.6
+
+  #UI
+  smooth_page_indicator: ^1.2.0+3
 
 dev_dependencies:
   flutter_test:
