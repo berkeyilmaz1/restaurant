@@ -11,4 +11,5 @@ final class ProductColors {
   static const Color secondaryTextColor = Color(0xFF89909E);
   static const Color boxColor = Color(0xFFF4F4F4);
   static const Color errorColor = Color(0xFFEB4646);
+  static const Color darkTextColor = Color(0xFF1F2937);
 }

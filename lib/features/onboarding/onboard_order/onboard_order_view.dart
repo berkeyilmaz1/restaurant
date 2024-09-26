@@ -6,14 +6,14 @@ import 'package:restaurant_app/product/utils/constants/image_constants.dart';
 import 'package:restaurant_app/product/utils/constants/product_text_styles.dart';
 import 'package:restaurant_app/product/utils/page_padding.dart';
 
-final class OnboardMapView extends StatefulWidget {
-  const OnboardMapView({super.key});
+final class OnboardOrderView extends StatefulWidget {
+  const OnboardOrderView({super.key});
 
   @override
-  State<OnboardMapView> createState() => _OnboardMapViewState();
+  State<OnboardOrderView> createState() => _OnboardOrderViewState();
 }
 
-class _OnboardMapViewState extends State<OnboardMapView> {
+class _OnboardOrderViewState extends State<OnboardOrderView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -23,16 +23,16 @@ class _OnboardMapViewState extends State<OnboardMapView> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              SvgPicture.asset(ImageConstants.icOnboardMap),
+              SvgPicture.asset(ImageConstants.icOnboardOrder),
               Padding(
                 padding: const PagePadding.vertical18Symmetric(),
                 child: const Text(
-                  LocaleKeys.onboarding_onboardingMap_title,
+                  LocaleKeys.onboarding_onboardingPhone_title,
                   style: ProductTextStyles.onboardTitle,
                 ).tr(),
               ),
               const Text(
-                LocaleKeys.onboarding_onboardingMap_description,
+                LocaleKeys.onboarding_onboardingPhone_description,
                 style: ProductTextStyles.onboardDescription,
                 textAlign: TextAlign.center,
               ).tr(),
