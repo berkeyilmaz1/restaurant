@@ -3,6 +3,7 @@ import 'package:restaurant_app/features/onboarding/onboard/onboard_view.dart';
 import 'package:restaurant_app/features/onboarding/onboard_food/onboard_food_view.dart';
 import 'package:restaurant_app/features/onboarding/onboard_map/view/onboard_map_view.dart';
 import 'package:restaurant_app/features/onboarding/onboard_order/onboard_order_view.dart';
+import 'package:restaurant_app/product/utils/constants/product_times.dart';
 
 /// Mixin for [OnboardView] to separate the logic from the view.
 mixin OnboardViewMixin on State<OnboardView> {
@@ -27,7 +28,7 @@ mixin OnboardViewMixin on State<OnboardView> {
   /// Method to animate to the next page.
   void animateToNextPage() {
     _onboardingController.nextPage(
-      duration: const Duration(milliseconds: 300),
+      duration: const Duration(milliseconds: ProductDurations.animateDurations),
       curve: Curves.easeIn,
     );
   }
