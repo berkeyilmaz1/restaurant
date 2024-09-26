@@ -4,4 +4,5 @@ final class ImageConstants {
   static const String icOnboardFood = 'assets/icons/ic_onboard_food.svg';
   static const String icOnboardMap = 'assets/icons/ic_onboard_map.svg';
   static const String icOnboardOrder = 'assets/icons/ic_onboard_order.svg';
+  static const String icRegisterWelcome = 'assets/icons/ic_register_welcome.svg';
 }

@@ -21,4 +21,14 @@ final class ProductTextStyles {
     fontSize: WidgetSizes.spacingM,
     fontWeight: FontWeight.bold,
   );
+
+  static const TextStyle loginButtonTextStyle = TextStyle(
+    fontSize: WidgetSizes.spacingMx,
+    color: ProductColors.onSecondaryTextColor,
+  );
+
+  static const TextStyle createAccButtonTextStyle = TextStyle(
+    fontSize: 18,
+    color: ProductColors.onPrimaryTextColor,
+  );
 }

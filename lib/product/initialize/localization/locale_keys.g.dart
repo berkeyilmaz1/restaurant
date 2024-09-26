@@ -14,5 +14,10 @@ abstract class  LocaleKeys {
   static const onboarding_onboardingFood_description = 'onboarding.onboardingFood.description';
   static const onboarding_onboardingFood = 'onboarding.onboardingFood';
   static const onboarding = 'onboarding';
+  static const registration_welcome = 'registration.welcome';
+  static const registration_welcomeDesc = 'registration.welcomeDesc';
+  static const registration_createAccount = 'registration.createAccount';
+  static const registration_login = 'registration.login';
+  static const registration = 'registration';
 
 }

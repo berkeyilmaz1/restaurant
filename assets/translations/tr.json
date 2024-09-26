@@ -15,5 +15,12 @@
             "title": "Uygun fiyata lezzetli yemek",
             "description": "Pahalı restoranlarda uygun fiyatlarla yemek yiyebilirsiniz"
         }
-    }
+    },
+    "registration": {
+    "welcome": "Hoş geldiniz",
+    "welcomeDesc": "Hizmetlerin keyfini çıkarmadan önce lütfen önce kaydolun",
+    "createAccount": "Hesap Oluştur",
+    "login": "Giriş Yap"
+}
+
 }
