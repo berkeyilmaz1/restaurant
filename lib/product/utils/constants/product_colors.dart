@@ -12,5 +12,6 @@ final class ProductColors {
   static const Color boxColor = Color(0xFFF4F4F4);
   static const Color errorColor = Color(0xFFEB4646);
   static const Color darkTextColor = Color(0xFF1F2937);
-  static const Color transparent = Colors.transparent;
+  static const Color transparent = Colors.transparent; 
+  static const Color black = Colors.black;
 }

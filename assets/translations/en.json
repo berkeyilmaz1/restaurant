@@ -24,8 +24,9 @@
         "fullName":"Full Name",
         "email":"Email",
         "password":"Password",
-        "fullNameHint":"Enter your full name",
-        "emailHint":"Enter your email",
-        "passwordHint":"Enter your password"
+        "singUpGoogle":"Sign up with Google",
+        "loginGoogle":"Login with Google",
+        "forgotPassword":"Forgot Password"
+         
     }
 }

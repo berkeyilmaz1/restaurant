@@ -21,9 +21,9 @@ abstract class  LocaleKeys {
   static const registration_fullName = 'registration.fullName';
   static const registration_email = 'registration.email';
   static const registration_password = 'registration.password';
-  static const registration_fullNameHint = 'registration.fullNameHint';
-  static const registration_emailHint = 'registration.emailHint';
-  static const registration_passwordHint = 'registration.passwordHint';
+  static const registration_singUpGoogle = 'registration.singUpGoogle';
+  static const registration_loginGoogle = 'registration.loginGoogle';
+  static const registration_forgotPassword = 'registration.forgotPassword';
   static const registration = 'registration';
 
 }

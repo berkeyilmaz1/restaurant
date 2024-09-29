@@ -8,20 +8,21 @@ import 'package:restaurant_app/product/utils/widget_sizes.dart';
 /// CustomTextField is a custom text field widget that can be used to create text fields with a label and hint text.
 final class CustomTextField extends StatelessWidget {
   const CustomTextField({
-    required this.fieldName,
     required this.keyboardType,
- 
+    required this.labelText,
     this.obscureText = false,
     super.key,
     this.validator,
-    this.hintName,
+    this.controller,
+    this.onChanged,
   });
   final TextInputType? keyboardType;
   final String Function(String?)? validator;
-  final String fieldName;
-  final String? hintName;
+  final TextEditingController? controller;
+  final String labelText;
   final bool obscureText;
- 
+  final ValueChanged<String>? onChanged;
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -29,20 +30,19 @@ final class CustomTextField extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Padding(
-            padding: const PagePadding.horizontal16Symmetric(),
-            child: Text(
-              fieldName,
-              style: ProductTextStyles.blackTextStyle,
-            ).tr(),
-          ),
           TextFormField(
-      
+            onChanged: onChanged,
+            controller: controller,
+            cursorColor: ProductColors.primaryColor,
             obscureText: obscureText,
             keyboardType: keyboardType,
             validator: validator,
             decoration: InputDecoration(
-              hintText: hintName?.tr(),
+              floatingLabelBehavior: FloatingLabelBehavior.auto,
+              floatingLabelStyle: const TextStyle(
+                color: ProductColors.primaryColor,
+              ),
+              labelText: labelText.tr(),
               hintStyle: ProductTextStyles.hintTextStyle,
               focusedBorder: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(WidgetSizes.spacingMx),

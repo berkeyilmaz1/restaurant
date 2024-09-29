@@ -19,16 +19,29 @@ final class ProductTextStyles {
   static const TextStyle textStyle = TextStyle(
     color: ProductColors.primaryColor,
     fontSize: WidgetSizes.spacingM,
-    fontWeight: FontWeight.bold,
+    // fontWeight: FontWeight.bold,
+  );
+
+  static const TextStyle blackTextStyle = TextStyle(
+    color: ProductColors.darkTextColor,
+    fontWeight: FontWeight.w500,
+  );
+
+  static const TextStyle hintTextStyle = TextStyle(
+    color: ProductColors.secondaryTextColor,
   );
 
   static const TextStyle loginButtonTextStyle = TextStyle(
     fontSize: WidgetSizes.spacingMx,
     color: ProductColors.onSecondaryTextColor,
   );
+  static const TextStyle googleButtonTextStyle = TextStyle(
+    fontSize: WidgetSizes.spacingMx,
+    color: ProductColors.black,
+  );
 
   static const TextStyle createAccButtonTextStyle = TextStyle(
-    fontSize: 18,
+    fontSize: WidgetSizes.spacingMx,
     color: ProductColors.onPrimaryTextColor,
   );
 }

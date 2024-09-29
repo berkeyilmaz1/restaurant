@@ -1,6 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:restaurant_app/features/onboarding/onboard/onboard_view.dart';
+import 'package:restaurant_app/features/authentication/view/auth_view.dart';
 import 'package:restaurant_app/product/utils/constants/product_constants.dart';
 
 final class MainApp extends StatelessWidget {
@@ -14,7 +14,7 @@ final class MainApp extends StatelessWidget {
       locale: context.locale,
       debugShowCheckedModeBanner: false,
       title: ProductConstants.appName,
-      home: const OnboardView(),
+      home: const AuthView(),
     );
   }
 }

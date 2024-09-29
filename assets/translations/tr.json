@@ -24,8 +24,9 @@
         "fullName": "İsim",
         "email": "E-posta",
         "password": "Şifre",
-        "fullNameHint": "İsminizi girin",
-        "emailHint": "E-posta adresinizi girin",
-        "passwordHint": "Şifrenizi girin"
+        "singUpGoogle":"Google ile Kayıt Ol",
+        "loginGoogle":"Google ile Giriş Yap",
+        "forgotPassword": "Şifremi Unuttum"
+         
     }
 }
