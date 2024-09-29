@@ -19,8 +19,21 @@ final class CreateAccountButton extends StatelessWidget {
                   borderRadius: BorderRadius.circular(WidgetSizes.spacingXsMid),
                 ),
               ),
+
               ///TODO
-              onPressed: () {},
+              onPressed: () {
+                showModalBottomSheet(
+                  context: context,
+                  isScrollControlled: true,  
+                  builder: (context) {
+                    return SizedBox(
+                      // Set the height to 3/4 of the screen
+                      height: MediaQuery.of(context).size.height * 0.75,
+                      child: const RegistrationBottomSheet(),
+                    );
+                  },
+                );
+              },
               child: const Text(
                 LocaleKeys.registration_createAccount,
                 style: ProductTextStyles.createAccButtonTextStyle,

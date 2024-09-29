@@ -20,6 +20,12 @@
         "welcome":"Welcome",
         "welcomeDesc":"Before enjoying services Please register first",
         "createAccount":"Create Account",
-        "login":"Login"
+        "login":"Login",
+        "fullName":"Full Name",
+        "email":"Email",
+        "password":"Password",
+        "fullNameHint":"Enter your full name",
+        "emailHint":"Enter your email",
+        "passwordHint":"Enter your password"
     }
 }

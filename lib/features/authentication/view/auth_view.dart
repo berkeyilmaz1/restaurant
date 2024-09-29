@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:restaurant_app/features/authentication/widgets/registration_bottom_sheet/registration_bottom_sheet.dart';
 import 'package:restaurant_app/product/initialize/localization/locale_keys.g.dart';
 import 'package:restaurant_app/product/utils/constants/image_constants.dart';
 import 'package:restaurant_app/product/utils/constants/product_colors.dart';

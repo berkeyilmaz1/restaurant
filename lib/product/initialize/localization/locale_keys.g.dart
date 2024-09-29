@@ -18,6 +18,12 @@ abstract class  LocaleKeys {
   static const registration_welcomeDesc = 'registration.welcomeDesc';
   static const registration_createAccount = 'registration.createAccount';
   static const registration_login = 'registration.login';
+  static const registration_fullName = 'registration.fullName';
+  static const registration_email = 'registration.email';
+  static const registration_password = 'registration.password';
+  static const registration_fullNameHint = 'registration.fullNameHint';
+  static const registration_emailHint = 'registration.emailHint';
+  static const registration_passwordHint = 'registration.passwordHint';
   static const registration = 'registration';
 
 }

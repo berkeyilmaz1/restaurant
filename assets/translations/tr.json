@@ -17,10 +17,15 @@
         }
     },
     "registration": {
-    "welcome": "Hoş geldiniz",
-    "welcomeDesc": "Hizmetlerin keyfini çıkarmadan önce lütfen önce kaydolun",
-    "createAccount": "Hesap Oluştur",
-    "login": "Giriş Yap"
-}
-
+        "welcome": "Hoş geldiniz",
+        "welcomeDesc": "Hizmetlerin keyfini çıkarmadan önce lütfen önce kaydolun",
+        "createAccount": "Hesap Oluştur",
+        "login": "Giriş Yap",
+        "fullName": "İsim",
+        "email": "E-posta",
+        "password": "Şifre",
+        "fullNameHint": "İsminizi girin",
+        "emailHint": "E-posta adresinizi girin",
+        "passwordHint": "Şifrenizi girin"
+    }
 }
